@@ -257,7 +257,7 @@ client.on('guildUpdate', async (oldG, newG) => {
 
     client.once('ready', () => {
     renklimesaj(`Logged in as ${client.user.tag}`);
-    mesajgonder(kanalId, `** Selfbot is now running as \`${client.user.tag}\` ** \n[developed by @duck.js](https://discord.gg/1988) `);
+    mesajgonder(kanalId, `** Selfbot is now running as \`${client.user.tag}\` ** \n[developed by @duck.js](https://discord.gg/israil) `);
     mesajgonder(kanalId, '**Bot is ready!** run the \`.help\` command for help. and use the \`.mfa on\` command to start the mfa verification process.');
     });
     const duckevils = new duckevilss();
